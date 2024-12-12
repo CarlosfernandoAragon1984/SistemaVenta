@@ -11,5 +11,10 @@ namespace Dominio
         public int IdRol { get; set; }
         public string Descripcion { get; set; }
         public DateTime FechaRegistro { get; set; }
+
+        public override string ToString()
+        {
+            return Descripcion;
+        }
     }
 }

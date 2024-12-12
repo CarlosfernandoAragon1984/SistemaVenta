@@ -45,6 +45,12 @@ namespace Negocio.Repository.UserRepository
                     {
                         aux.Estado = (bool)datos.Lector["Estado"];
                     }
+                    aux.rol= new Rol();
+                    aux.rol.IdRol = (Int16)datos.Lector["IdRol"];
+                    if (!(datos.Lector["Descripcion"] is DBNull))
+                    {
+                        aux.rol.Descripcion = (string)datos.Lector["Descripcion"]; 
+                    }
                    
                    
                     lista.Add(aux);
