@@ -1,0 +1,6 @@
+D:\Sistema Ventas\SistemaVenta\Dominio\bin\Debug\Dominio.dll
+D:\Sistema Ventas\SistemaVenta\Dominio\bin\Debug\Dominio.pdb
+D:\Sistema Ventas\SistemaVenta\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+D:\Sistema Ventas\SistemaVenta\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+D:\Sistema Ventas\SistemaVenta\Dominio\obj\Debug\Dominio.dll
+D:\Sistema Ventas\SistemaVenta\Dominio\obj\Debug\Dominio.pdb

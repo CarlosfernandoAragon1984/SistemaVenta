@@ -1,0 +1,11 @@
+D:\Sistema Ventas\SistemaVenta\Negocio\bin\Debug\Negocio.dll
+D:\Sistema Ventas\SistemaVenta\Negocio\bin\Debug\Negocio.pdb
+D:\Sistema Ventas\SistemaVenta\Negocio\bin\Debug\Conexion.dll
+D:\Sistema Ventas\SistemaVenta\Negocio\bin\Debug\Dominio.dll
+D:\Sistema Ventas\SistemaVenta\Negocio\bin\Debug\Conexion.pdb
+D:\Sistema Ventas\SistemaVenta\Negocio\bin\Debug\Dominio.pdb
+D:\Sistema Ventas\SistemaVenta\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\Sistema Ventas\SistemaVenta\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Sistema Ventas\SistemaVenta\Negocio\obj\Debug\Negocio.csproj.Up2Date
+D:\Sistema Ventas\SistemaVenta\Negocio\obj\Debug\Negocio.dll
+D:\Sistema Ventas\SistemaVenta\Negocio\obj\Debug\Negocio.pdb

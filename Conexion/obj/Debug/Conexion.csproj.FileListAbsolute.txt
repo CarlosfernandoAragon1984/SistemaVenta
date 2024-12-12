@@ -1,0 +1,6 @@
+D:\Sistema Ventas\SistemaVenta\Conexion\bin\Debug\Conexion.dll
+D:\Sistema Ventas\SistemaVenta\Conexion\bin\Debug\Conexion.pdb
+D:\Sistema Ventas\SistemaVenta\Conexion\obj\Debug\Conexion.csproj.AssemblyReference.cache
+D:\Sistema Ventas\SistemaVenta\Conexion\obj\Debug\Conexion.csproj.CoreCompileInputs.cache
+D:\Sistema Ventas\SistemaVenta\Conexion\obj\Debug\Conexion.dll
+D:\Sistema Ventas\SistemaVenta\Conexion\obj\Debug\Conexion.pdb
