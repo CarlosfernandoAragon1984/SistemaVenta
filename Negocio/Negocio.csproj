@@ -48,8 +48,12 @@
     <Compile Include="Interface\IUpdateRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\PermisoRepository\RepositoryPermisoReadId.cs" />
+    <Compile Include="Repository\RolRepository\ReadRolRepository.cs" />
+    <Compile Include="Repository\UserRepository\CreateUserRepository.cs" />
     <Compile Include="Repository\UserRepository\RepositoryUserRead.cs" />
+    <Compile Include="Service\CreateUserService.cs" />
     <Compile Include="Service\PermisoService\ServicePermisoReadId.cs" />
+    <Compile Include="Service\RolService\ReadRolService.cs" />
     <Compile Include="Service\ServicioUserRead.cs" />
   </ItemGroup>
   <ItemGroup />

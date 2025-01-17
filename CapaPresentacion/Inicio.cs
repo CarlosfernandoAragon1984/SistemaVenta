@@ -37,6 +37,8 @@ namespace CapaPresentacion
             IReadRepositoryID<Permiso> listaPermiso = new RepositoryPermisoReadId();
             ServicePermisoReadId servicio = new ServicePermisoReadId(listaPermiso);
             lista= servicio.ListPermisoID(_usuario);
+           // RepositoryPermisoReadId listas = new RepositoryPermisoReadId();
+           // lista = listas.Select(_usuario);
             foreach (IconMenuItem icommenu in menu.Items)
             {
                 bool encontrado = lista.Any(l => l.NombreMenu == icommenu.Name);

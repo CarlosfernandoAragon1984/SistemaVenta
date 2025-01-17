@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Sistema Ventas\\SistemaVenta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB4F5D5E-05DF-45A2-B5AF-DDF86498ACAF}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Sistema Ventas\\SistemaVenta\\capapresentacion\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB4F5D5E-05DF-45A2-B5AF-DDF86498ACAF}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12010EAC-763C-49FE-85D4-53452B81708B}|Negocio\\Negocio.csproj|d:\\sistema ventas\\sistemaventa\\negocio\\repository\\userrepository\\repositoryuserread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12010EAC-763C-49FE-85D4-53452B81708B}|Negocio\\Negocio.csproj|solutionrelative:negocio\\repository\\userrepository\\repositoryuserread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB4F5D5E-05DF-45A2-B5AF-DDF86498ACAF}|CapaPresentacion\\CapaPresentacion.csproj|d:\\sistema ventas\\sistemaventa\\capapresentacion\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB4F5D5E-05DF-45A2-B5AF-DDF86498ACAF}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0E1F8DE-13D3-4F3D-A84D-3C16CCEBF75C}|Dominio\\Dominio.csproj|d:\\sistema ventas\\sistemaventa\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0E1F8DE-13D3-4F3D-A84D-3C16CCEBF75C}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12010EAC-763C-49FE-85D4-53452B81708B}|Negocio\\Negocio.csproj|D:\\Sistema Ventas\\SistemaVenta\\negocio\\service\\createuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12010EAC-763C-49FE-85D4-53452B81708B}|Negocio\\Negocio.csproj|solutionrelative:negocio\\service\\createuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB4F5D5E-05DF-45A2-B5AF-DDF86498ACAF}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Sistema Ventas\\SistemaVenta\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB4F5D5E-05DF-45A2-B5AF-DDF86498ACAF}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB4F5D5E-05DF-45A2-B5AF-DDF86498ACAF}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Sistema Ventas\\SistemaVenta\\capapresentacion\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB4F5D5E-05DF-45A2-B5AF-DDF86498ACAF}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52F3E3B-230C-4C45-A432-A660F20978D4}|Conexion\\Conexion.csproj|D:\\Sistema Ventas\\SistemaVenta\\conexion\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52F3E3B-230C-4C45-A432-A660F20978D4}|Conexion\\Conexion.csproj|solutionrelative:conexion\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12010EAC-763C-49FE-85D4-53452B81708B}|Negocio\\Negocio.csproj|D:\\Sistema Ventas\\SistemaVenta\\negocio\\repository\\userrepository\\createuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12010EAC-763C-49FE-85D4-53452B81708B}|Negocio\\Negocio.csproj|solutionrelative:negocio\\repository\\userrepository\\createuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,66 +39,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Sistema Ventas\\SistemaVenta\\CapaPresentacion\\frmUsuario.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmUsuario.cs",
-              "ToolTip": "D:\\Sistema Ventas\\SistemaVenta\\CapaPresentacion\\frmUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\frmUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:37:12.772Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "frmUsuario.cs",
               "DocumentMoniker": "D:\\Sistema Ventas\\SistemaVenta\\CapaPresentacion\\frmUsuario.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmUsuario.cs",
               "ToolTip": "D:\\Sistema Ventas\\SistemaVenta\\CapaPresentacion\\frmUsuario.cs",
               "RelativeToolTip": "CapaPresentacion\\frmUsuario.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAIAywCMAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T14:27:07.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RepositoryUserRead.cs",
-              "DocumentMoniker": "D:\\Sistema Ventas\\SistemaVenta\\Negocio\\Repository\\UserRepository\\RepositoryUserRead.cs",
-              "RelativeDocumentMoniker": "Negocio\\Repository\\UserRepository\\RepositoryUserRead.cs",
-              "ToolTip": "D:\\Sistema Ventas\\SistemaVenta\\Negocio\\Repository\\UserRepository\\RepositoryUserRead.cs",
-              "RelativeToolTip": "Negocio\\Repository\\UserRepository\\RepositoryUserRead.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAArwDgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T21:28:06.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\Sistema Ventas\\SistemaVenta\\Dominio\\Usuario.cs",
-              "RelativeDocumentMoniker": "Dominio\\Usuario.cs",
-              "ToolTip": "D:\\Sistema Ventas\\SistemaVenta\\Dominio\\Usuario.cs",
-              "RelativeToolTip": "Dominio\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "D:\\Sistema Ventas\\SistemaVenta\\Conexion\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "Conexion\\AccesoDatos.cs",
+              "ToolTip": "D:\\Sistema Ventas\\SistemaVenta\\Conexion\\AccesoDatos.cs",
+              "RelativeToolTip": "Conexion\\AccesoDatos.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T21:21:30.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T17:54:16.965Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Sistema Ventas\\SistemaVenta\\CapaPresentacion\\Login.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
-              "ToolTip": "D:\\Sistema Ventas\\SistemaVenta\\CapaPresentacion\\Login.cs",
-              "RelativeToolTip": "CapaPresentacion\\Login.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "Title": "CreateUserRepository.cs",
+              "DocumentMoniker": "D:\\Sistema Ventas\\SistemaVenta\\Negocio\\Repository\\UserRepository\\CreateUserRepository.cs",
+              "RelativeDocumentMoniker": "Negocio\\Repository\\UserRepository\\CreateUserRepository.cs",
+              "ToolTip": "D:\\Sistema Ventas\\SistemaVenta\\Negocio\\Repository\\UserRepository\\CreateUserRepository.cs",
+              "RelativeToolTip": "Negocio\\Repository\\UserRepository\\CreateUserRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wBoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T15:27:22.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T17:30:41.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateUserService.cs",
+              "DocumentMoniker": "D:\\Sistema Ventas\\SistemaVenta\\Negocio\\Service\\CreateUserService.cs",
+              "RelativeDocumentMoniker": "Negocio\\Service\\CreateUserService.cs",
+              "ToolTip": "D:\\Sistema Ventas\\SistemaVenta\\Negocio\\Service\\CreateUserService.cs",
+              "RelativeToolTip": "Negocio\\Service\\CreateUserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:30:25.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Sistema Ventas\\SistemaVenta\\CapaPresentacion\\frmUsuario.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmUsuario.cs",
+              "ToolTip": "D:\\Sistema Ventas\\SistemaVenta\\CapaPresentacion\\frmUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\frmUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:37:12.772Z"
             }
           ]
         }

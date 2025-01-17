@@ -21,32 +21,42 @@ namespace Negocio.Repository.UserRepository
                 while (datos.Lector.Read())
                 {
                     Usuario aux = new Usuario();
-                   
+                   //
                     aux.IdUsuario = (Int16)datos.Lector["IdUsuario"];
-                   
+                   //
                     if (!(datos.Lector["Documento"] is DBNull))
                     {
                         aux.Documento = (string)datos.Lector["Documento"];
                     }
+                    //
                     if (!(datos.Lector["NombreCompleto"] is DBNull))
                     {
                         aux.NombreCompleto = (string)datos.Lector["NombreCompleto"];
                     }
+                    //
                     if (!(datos.Lector["Correo"] is DBNull))
                     {
                         aux.Email = (string)datos.Lector["Correo"];
                     }
+                    //
                     if (!(datos.Lector["Clave"] is DBNull))
                     {
                         aux.Clave = (string)datos.Lector["Clave"];
                     }
-                   
+                    //
+                    if (!(datos.Lector["Telefono"] is DBNull))
+                    {
+                        aux.Telefono = (string)datos.Lector["Telefono"];
+                    }
+                    //
                     if (!(datos.Lector["Estado"] is DBNull))
                     {
                         aux.Estado = (bool)datos.Lector["Estado"];
                     }
+                   //
                     aux.rol= new Rol();
                     aux.rol.IdRol = (Int16)datos.Lector["IdRol"];
+                    //
                     if (!(datos.Lector["Descripcion"] is DBNull))
                     {
                         aux.rol.Descripcion = (string)datos.Lector["Descripcion"]; 

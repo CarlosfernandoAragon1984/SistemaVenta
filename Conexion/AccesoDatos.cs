@@ -47,13 +47,13 @@ namespace Conexion
         {
             comando.Parameters.AddWithValue(nombre, valor);
         }
-        public int EjecutarAccionScalar()
+        public void EjecutarAccionScalar()
         {
             comando.Connection = conexion;
             try
             {
                 conexion.Open();
-                return int.Parse(comando.ExecuteScalar().ToString());
+                comando.ExecuteScalar();
 
 
             }

@@ -47,6 +47,8 @@
             this.btnEditar = new FontAwesome.Sharp.IconButton();
             this.btnEliminar = new FontAwesome.Sharp.IconButton();
             this.dgvUsuario = new System.Windows.Forms.DataGridView();
+            this.txbTelefono = new System.Windows.Forms.TextBox();
+            this.lblTelefono = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuario)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +68,7 @@
             // 
             this.lblDocumento.AutoSize = true;
             this.lblDocumento.BackColor = System.Drawing.SystemColors.Window;
-            this.lblDocumento.Location = new System.Drawing.Point(32, 43);
+            this.lblDocumento.Location = new System.Drawing.Point(32, 23);
             this.lblDocumento.Name = "lblDocumento";
             this.lblDocumento.Size = new System.Drawing.Size(82, 13);
             this.lblDocumento.TabIndex = 1;
@@ -75,14 +77,14 @@
             // 
             // txbDocumento
             // 
-            this.txbDocumento.Location = new System.Drawing.Point(35, 59);
+            this.txbDocumento.Location = new System.Drawing.Point(35, 39);
             this.txbDocumento.Name = "txbDocumento";
             this.txbDocumento.Size = new System.Drawing.Size(240, 20);
             this.txbDocumento.TabIndex = 2;
             // 
             // txbNombreCompleto
             // 
-            this.txbNombreCompleto.Location = new System.Drawing.Point(35, 103);
+            this.txbNombreCompleto.Location = new System.Drawing.Point(35, 83);
             this.txbNombreCompleto.Name = "txbNombreCompleto";
             this.txbNombreCompleto.Size = new System.Drawing.Size(240, 20);
             this.txbNombreCompleto.TabIndex = 4;
@@ -91,7 +93,7 @@
             // 
             this.lblNombreCompleto.AutoSize = true;
             this.lblNombreCompleto.BackColor = System.Drawing.SystemColors.Window;
-            this.lblNombreCompleto.Location = new System.Drawing.Point(32, 87);
+            this.lblNombreCompleto.Location = new System.Drawing.Point(32, 67);
             this.lblNombreCompleto.Name = "lblNombreCompleto";
             this.lblNombreCompleto.Size = new System.Drawing.Size(91, 13);
             this.lblNombreCompleto.TabIndex = 3;
@@ -100,7 +102,7 @@
             // 
             // txbCorreo
             // 
-            this.txbCorreo.Location = new System.Drawing.Point(35, 150);
+            this.txbCorreo.Location = new System.Drawing.Point(35, 126);
             this.txbCorreo.Name = "txbCorreo";
             this.txbCorreo.Size = new System.Drawing.Size(240, 20);
             this.txbCorreo.TabIndex = 6;
@@ -109,7 +111,7 @@
             // 
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.BackColor = System.Drawing.SystemColors.Window;
-            this.lblCorreo.Location = new System.Drawing.Point(32, 134);
+            this.lblCorreo.Location = new System.Drawing.Point(32, 110);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(38, 13);
             this.lblCorreo.TabIndex = 5;
@@ -118,7 +120,7 @@
             // 
             // txbContraseña
             // 
-            this.txbContraseña.Location = new System.Drawing.Point(35, 197);
+            this.txbContraseña.Location = new System.Drawing.Point(35, 209);
             this.txbContraseña.Name = "txbContraseña";
             this.txbContraseña.Size = new System.Drawing.Size(240, 20);
             this.txbContraseña.TabIndex = 8;
@@ -127,7 +129,7 @@
             // 
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.BackColor = System.Drawing.SystemColors.Window;
-            this.lblContraseña.Location = new System.Drawing.Point(32, 181);
+            this.lblContraseña.Location = new System.Drawing.Point(32, 193);
             this.lblContraseña.Name = "lblContraseña";
             this.lblContraseña.Size = new System.Drawing.Size(61, 13);
             this.lblContraseña.TabIndex = 7;
@@ -136,7 +138,7 @@
             // 
             // txbConfirmarContraseña
             // 
-            this.txbConfirmarContraseña.Location = new System.Drawing.Point(35, 243);
+            this.txbConfirmarContraseña.Location = new System.Drawing.Point(35, 251);
             this.txbConfirmarContraseña.Name = "txbConfirmarContraseña";
             this.txbConfirmarContraseña.Size = new System.Drawing.Size(240, 20);
             this.txbConfirmarContraseña.TabIndex = 10;
@@ -145,7 +147,7 @@
             // 
             this.lblConfirmaContraseña.AutoSize = true;
             this.lblConfirmaContraseña.BackColor = System.Drawing.SystemColors.Window;
-            this.lblConfirmaContraseña.Location = new System.Drawing.Point(32, 227);
+            this.lblConfirmaContraseña.Location = new System.Drawing.Point(32, 235);
             this.lblConfirmaContraseña.Name = "lblConfirmaContraseña";
             this.lblConfirmaContraseña.Size = new System.Drawing.Size(108, 13);
             this.lblConfirmaContraseña.TabIndex = 9;
@@ -156,7 +158,7 @@
             // 
             this.lblRol.AutoSize = true;
             this.lblRol.BackColor = System.Drawing.SystemColors.Window;
-            this.lblRol.Location = new System.Drawing.Point(32, 277);
+            this.lblRol.Location = new System.Drawing.Point(32, 290);
             this.lblRol.Name = "lblRol";
             this.lblRol.Size = new System.Drawing.Size(23, 13);
             this.lblRol.TabIndex = 11;
@@ -167,7 +169,7 @@
             // 
             this.cboRol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboRol.FormattingEnabled = true;
-            this.cboRol.Location = new System.Drawing.Point(35, 294);
+            this.cboRol.Location = new System.Drawing.Point(35, 310);
             this.cboRol.Name = "cboRol";
             this.cboRol.Size = new System.Drawing.Size(240, 21);
             this.cboRol.TabIndex = 12;
@@ -176,7 +178,7 @@
             // 
             this.cboEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboEstado.FormattingEnabled = true;
-            this.cboEstado.Location = new System.Drawing.Point(35, 345);
+            this.cboEstado.Location = new System.Drawing.Point(35, 361);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(240, 21);
             this.cboEstado.TabIndex = 14;
@@ -185,7 +187,7 @@
             // 
             this.lblEstado.AutoSize = true;
             this.lblEstado.BackColor = System.Drawing.SystemColors.Window;
-            this.lblEstado.Location = new System.Drawing.Point(32, 328);
+            this.lblEstado.Location = new System.Drawing.Point(32, 344);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(40, 13);
             this.lblEstado.TabIndex = 13;
@@ -211,6 +213,7 @@
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnEditar
             // 
@@ -255,11 +258,30 @@
             // 
             // dgvUsuario
             // 
+            this.dgvUsuario.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvUsuario.Location = new System.Drawing.Point(332, 25);
             this.dgvUsuario.Name = "dgvUsuario";
             this.dgvUsuario.Size = new System.Drawing.Size(578, 316);
             this.dgvUsuario.TabIndex = 18;
+            // 
+            // txbTelefono
+            // 
+            this.txbTelefono.Location = new System.Drawing.Point(35, 169);
+            this.txbTelefono.Name = "txbTelefono";
+            this.txbTelefono.Size = new System.Drawing.Size(240, 20);
+            this.txbTelefono.TabIndex = 20;
+            // 
+            // lblTelefono
+            // 
+            this.lblTelefono.AutoSize = true;
+            this.lblTelefono.BackColor = System.Drawing.SystemColors.Window;
+            this.lblTelefono.Location = new System.Drawing.Point(32, 153);
+            this.lblTelefono.Name = "lblTelefono";
+            this.lblTelefono.Size = new System.Drawing.Size(49, 13);
+            this.lblTelefono.TabIndex = 19;
+            this.lblTelefono.Text = "Teléfono";
+            this.lblTelefono.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // frmUsuario
             // 
@@ -267,6 +289,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(922, 518);
+            this.Controls.Add(this.txbTelefono);
+            this.Controls.Add(this.lblTelefono);
             this.Controls.Add(this.dgvUsuario);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnEditar);
@@ -316,5 +340,7 @@
         private FontAwesome.Sharp.IconButton btnEditar;
         private FontAwesome.Sharp.IconButton btnEliminar;
         private System.Windows.Forms.DataGridView dgvUsuario;
+        private System.Windows.Forms.TextBox txbTelefono;
+        private System.Windows.Forms.Label lblTelefono;
     }
 }

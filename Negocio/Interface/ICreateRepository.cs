@@ -8,6 +8,6 @@ namespace Negocio.Interface
 {
     public interface ICreateRepository<T>
     {
-        int Create(T entity, out string msn);
+        void Create(T entity);
     }
 }
