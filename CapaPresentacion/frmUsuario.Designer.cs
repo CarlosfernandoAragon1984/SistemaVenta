@@ -49,6 +49,7 @@
             this.dgvUsuario = new System.Windows.Forms.DataGridView();
             this.txbTelefono = new System.Windows.Forms.TextBox();
             this.lblTelefono = new System.Windows.Forms.Label();
+            this.txtIdUsuario = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuario)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,7 +60,7 @@
             this.lbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl.ForeColor = System.Drawing.SystemColors.Window;
-            this.lbl.Location = new System.Drawing.Point(1, -1);
+            this.lbl.Location = new System.Drawing.Point(0, 1);
             this.lbl.Name = "lbl";
             this.lbl.Size = new System.Drawing.Size(312, 521);
             this.lbl.TabIndex = 0;
@@ -235,6 +236,7 @@
             this.btnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEditar.UseCompatibleTextRendering = true;
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnEliminar
             // 
@@ -258,12 +260,14 @@
             // 
             // dgvUsuario
             // 
+            this.dgvUsuario.AllowUserToOrderColumns = true;
             this.dgvUsuario.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvUsuario.Location = new System.Drawing.Point(332, 25);
             this.dgvUsuario.Name = "dgvUsuario";
             this.dgvUsuario.Size = new System.Drawing.Size(578, 316);
             this.dgvUsuario.TabIndex = 18;
+            this.dgvUsuario.SelectionChanged += new System.EventHandler(this.dgvUsuario_SelectionChanged);
             // 
             // txbTelefono
             // 
@@ -283,12 +287,20 @@
             this.lblTelefono.Text = "Teléfono";
             this.lblTelefono.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // txtIdUsuario
+            // 
+            this.txtIdUsuario.Location = new System.Drawing.Point(226, 13);
+            this.txtIdUsuario.Name = "txtIdUsuario";
+            this.txtIdUsuario.Size = new System.Drawing.Size(49, 20);
+            this.txtIdUsuario.TabIndex = 21;
+            // 
             // frmUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(922, 518);
+            this.Controls.Add(this.txtIdUsuario);
             this.Controls.Add(this.txbTelefono);
             this.Controls.Add(this.lblTelefono);
             this.Controls.Add(this.dgvUsuario);
@@ -342,5 +354,6 @@
         private System.Windows.Forms.DataGridView dgvUsuario;
         private System.Windows.Forms.TextBox txbTelefono;
         private System.Windows.Forms.Label lblTelefono;
+        private System.Windows.Forms.TextBox txtIdUsuario;
     }
 }

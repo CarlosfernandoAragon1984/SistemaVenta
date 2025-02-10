@@ -8,6 +8,9 @@ namespace Negocio.Interface
 {
     public interface IUpdateRepository<T>
     {
-        bool Update(T entity, out string mensaje);
+        /*¿Qué es la inyección de dependencias?*/
+        /* 1) Interfaces: Se define una interfaz
+         * que representa la dependencia*/
+        void Update(T entity);
     }
 }

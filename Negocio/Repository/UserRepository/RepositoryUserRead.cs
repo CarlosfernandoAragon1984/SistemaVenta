@@ -55,6 +55,7 @@ namespace Negocio.Repository.UserRepository
                     }
                    //
                     aux.rol= new Rol();
+                   
                     aux.rol.IdRol = (Int16)datos.Lector["IdRol"];
                     //
                     if (!(datos.Lector["Descripcion"] is DBNull))

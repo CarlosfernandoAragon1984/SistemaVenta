@@ -10,7 +10,7 @@ namespace Dominio.InterfaceDominio
     {
          int IdProducto { get; set; }
          string Codigo { get; set; }
-         string Descripcion { get; set; }
+         string Nombre { get; set; }
          Categoria categoria { get; set; }
          int Stock { get; set; }
          decimal PrecioVenta { get; set; }

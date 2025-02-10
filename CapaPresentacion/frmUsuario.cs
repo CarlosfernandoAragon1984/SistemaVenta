@@ -4,6 +4,7 @@ using Negocio.Repository.RolRepository;
 using Negocio.Repository.UserRepository;
 using Negocio.Service;
 using Negocio.Service.RolService;
+using Negocio.Service.UserService;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,7 +29,7 @@ namespace CapaPresentacion
         private void frmUsuario_Load(object sender, EventArgs e)
         {
             Cargar();
-            // dgvUsuario.CellFormatting += dgvUsuario_CellFormatting;
+           // dgvUsuario.CellFormatting += dgvUsuario_CellFormatting;
             IReadRepository<Rol> listaRol = new ReadRolRepository();
             ReadRolService _service= new ReadRolService(listaRol);
             try
@@ -87,34 +88,35 @@ namespace CapaPresentacion
             try
             {
                 newUser = new Usuario();
-                newUser.Documento = txbDocumento.Text;
+                
+                newUser .Documento = txbDocumento.Text;
                 newUser.NombreCompleto = txbNombreCompleto.Text;
-                newUser.Email = txbCorreo.Text;
-                newUser.Telefono = txbTelefono.Text;
+                newUser  .Email = txbCorreo.Text;
+                newUser  .Telefono = txbTelefono.Text;
                 if (txbContraseña.Text == txbConfirmarContraseña.Text)
                 {
-                    newUser.Clave = txbContraseña.Text;
+                    newUser  .Clave = txbContraseña.Text;
                 }
                 else 
                 { 
                 }
               
-                newUser.rol=(Rol)cboRol.SelectedItem;
+                newUser  .rol=(Rol)cboRol.SelectedItem;
                
                 if (cboEstado.Text=="Activo")
                 {
-                    newUser.Estado = true;
+                    newUser  .Estado = true;
                 }
                 else
                 {
-                    newUser.Estado = false;
+                    newUser  .Estado = false;
                 }
 
 
-                 ICreateRepository<Usuario> _user=new CreateUserRepository();
-                 CreateUserService _server= new CreateUserService(_user);
-                 _server.Create(newUser);
-              
+                ICreateRepository<Usuario> _user = new CreateUserRepository();
+                CreateUserService _server = new CreateUserService(_user);
+                _server.Create(newUser);
+
                 Cargar();
             }
             catch (Exception)
@@ -126,6 +128,83 @@ namespace CapaPresentacion
            
 
         }
+
+       
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+              Usuario userUdate = new Usuario();
+                    userUdate.IdUsuario = Int16.Parse(txtIdUsuario.Text);
+                    userUdate.Documento = txbDocumento.Text;
+                    userUdate.NombreCompleto = txbNombreCompleto.Text;
+                    userUdate.Email = txbCorreo.Text;
+                    userUdate.Telefono = txbTelefono.Text;
+                    if (txbContraseña.Text == txbConfirmarContraseña.Text)
+                    {
+                        userUdate.Clave = txbContraseña.Text;
+                    }
+                    else
+                    {
+                    }
+
+                    userUdate.rol = (Rol)cboRol.SelectedItem;
+
+                    if (cboEstado.Text == "Activo")
+                    {
+                        userUdate.Estado = true;
+                    }
+                    else
+                    {
+                        userUdate.Estado = false;
+                    }
+                /*¿Qué es la inyección de dependencias?*/
+                /* 4) Contenedor de control de inversión: Un contenedor
+                 * se encarga de crear las instancias de las clases y
+                 * de inyectar las dependencias correctas.*/
+                    IUpdateRepository<Usuario> _user = new UpdateUserRepository();
+                    UpdateUserService _server = new UpdateUserService(_user);
+                    _server.Update(userUdate);
+               
+                if (userUdate.IdUsuario != 0)
+                {
+                    MessageBox.Show("Modificado exitosamente");
+                }
+
+                
+                Cargar();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        private void dgvUsuario_SelectionChanged(object sender, EventArgs e)
+        {
+            Usuario seleccionado;
+            seleccionado = (Usuario)dgvUsuario.CurrentRow.DataBoundItem;
+            txtIdUsuario.Text = (string)seleccionado.IdUsuario.ToString();
+            txbDocumento.Text = seleccionado.Documento;
+            txbNombreCompleto.Text = seleccionado.NombreCompleto;
+            txbCorreo.Text = seleccionado.Email;
+            txbTelefono.Text = seleccionado.Telefono;
+            txbContraseña.Text = seleccionado.Clave;
+            txbConfirmarContraseña.Text = seleccionado.Clave;
+            cboRol.SelectedValue = seleccionado.rol.IdRol;
+            if (seleccionado.Estado)
+            {
+                cboEstado.Text = "Activo";
+            }
+            if (!seleccionado.Estado)
+            {
+                cboEstado.Text = "Inactivo";
+            }
+        }
+
+
 
 
         //private void dgvUsuario_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)

@@ -47,14 +47,22 @@
     <Compile Include="Interface\IReadRepositoryID.cs" />
     <Compile Include="Interface\IUpdateRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\CategoriaRepository\ReadCategoriaRepository.cs" />
+    <Compile Include="Repository\CategoriaRepository\UpdateCategoriaRepository.cs" />
     <Compile Include="Repository\PermisoRepository\RepositoryPermisoReadId.cs" />
+    <Compile Include="Repository\ProductoRepository\ReadProductoRepository.cs" />
     <Compile Include="Repository\RolRepository\ReadRolRepository.cs" />
     <Compile Include="Repository\UserRepository\CreateUserRepository.cs" />
     <Compile Include="Repository\UserRepository\RepositoryUserRead.cs" />
-    <Compile Include="Service\CreateUserService.cs" />
+    <Compile Include="Repository\UserRepository\UpdateUserRepository.cs" />
+    <Compile Include="Service\CategoriaService\ReadCategoriaService.cs" />
+    <Compile Include="Service\CategoriaService\UpdateCategoriaService.cs" />
+    <Compile Include="Service\ProductoService\ReadProductoService.cs" />
+    <Compile Include="Service\UserService\CreateUserService.cs" />
     <Compile Include="Service\PermisoService\ServicePermisoReadId.cs" />
     <Compile Include="Service\RolService\ReadRolService.cs" />
-    <Compile Include="Service\ServicioUserRead.cs" />
+    <Compile Include="Service\UserService\ServicioUserRead.cs" />
+    <Compile Include="Service\UserService\UpdateUserService.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
